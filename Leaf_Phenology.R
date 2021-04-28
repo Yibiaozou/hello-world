@@ -1,3 +1,6 @@
+### This script is about xxxxx
+
+
 # clean work space & load required packages
 rm(list=ls())
 library(tidyverse)
@@ -220,7 +223,7 @@ Biogeography_leave_lifespan_2 <- function(a_vector, C_vector, b_vector, m_vector
   # C_vector: vector for leaf construction cost
   # Nu_vector: vector for nutrient availability
   # f: favorable season length
-  # e:  marginal transpiration cost * maximum transpiration rate
+  # e: marginal transpiration cost * maximum transpiration rate
   
   N <- length(a_vector)*length(C_vector)*length(b_vector)*length(m_vector)*length(e_vector)
   LLS_Mx <- matrix(NA, nrow=length(Nu_vector), ncol=N)
